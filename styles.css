@@ -1,0 +1,29 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 3px, solid, red;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-start {
+    flex-basis: calc(100% / 16);
+    border: 1px, solid, black;
+    box-sizing: border-box;
+}
+
+.color {
+    background-color: black;
+}
